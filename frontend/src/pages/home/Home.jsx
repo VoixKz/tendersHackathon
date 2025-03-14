@@ -12,7 +12,7 @@ const Home = () => {
     useEffect(() => {
         const fetchTenders = async () => {
             try {
-                const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM0NTM4NDk0LCJpYXQiOjE3MzQ0NTIwOTQsImp0aSI6IjcxNjI1N2VkZmQzYTQwZDFiMzFhZWUxYzJkODMyN2I5IiwiZW1haWwiOiJjdXN0b21lckBleGFtcGxlLmNvbSJ9.WCV8DUt5Ptalw1WUf8xRq4iJQXxsPgts_EYTP-TffuY'
+                const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1MjAwODg3LCJpYXQiOjE3MzUxMTQ0ODcsImp0aSI6IjRkYmY1YWVkZjc4MDRmOTU5NGQ3ODUwZWYyNWNlOGFkIiwiZW1haWwiOiJjdXN0b21lckBleGFtcGxlLmNvbSJ9.oMwry-qT0gBDl0_cJhNsJ63UdohfWqMC7OzSBaQYtq4eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxOTI3LCJpYXQiOjE3NDE5NjU1MjcsImp0aSI6ImI4MDZmNmM2YTE0MDQwZTk5YjgxMWZkYTk2OWQyYTAyIiwiZW1haWwiOiJhZG1pbkBhZG1pbi5reiJ9.s0xGo3oEoW5z0MbQIIqag2_kkhOXnxpCmv5V1wScLL4'
                 const axiosInstance = axios.create({
                     baseURL: 'http://127.0.0.1:8000/api/',
                     headers: {
